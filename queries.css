@@ -1,0 +1,71 @@
+@media (max-width: 50rem) {
+    .logo-1 {
+      height: 3rem;
+      margin-right: 2rem;
+    }
+    .gallery-03-cols {
+      align-self: auto;
+    }
+  
+    .main-nav-link-3:link
+     {
+      display: block;
+      width: auto;
+      order: 1;
+      font-size: 1rem;
+    }
+   
+    .main-nav-list {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+    .heading-primary {
+      font-size: 0.6rem;
+      line-height: 1.05;
+    }
+   
+    .img-f {
+      height: 5rem;
+      width: 5rem;
+    }
+   
+    .img-small-2,
+    .img-small,
+    .img-small-3 {
+      height: 3rem;
+      width: 3rem;
+    }
+    .name,
+    .name-small {
+      font-size: xx-small;
+    }
+    .heading-secondary {
+      font-size: 2rem;
+    }
+   
+    .gallery-03-cols {
+      gap: 5rem;
+    }
+    .gallery-05-cols{
+      grid-template-columns: repeat(3, 1fr);
+      row-gap: 2rem;
+    }
+   
+  }
+  @media (max-width: 30rem) {
+    .heading-primary{
+      color: aqua;
+      font-size: 0.5rem;
+      line-height: 0.8;
+      
+    }
+    .bg1{
+      height: 450px;
+    }
+
+    .bg2{
+      height: 700px;
+    }
+  }
+  
