@@ -8,26 +8,43 @@
   <title>patrika</title>
   <link rel="stylesheet" href="patrika.css"/>
   <link rel="stylesheet" href="queries.css" />
-  <link rel="stylesheet" href="patrika.js"/>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
-  <link rel="icon" href="favicon-3.ico" />
-</head>
+  <link rel="stylesheet" href="patrika.js" >
+  <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+</head>
 <body>
+  <div class="topnav">
+    <div class="navbar">
+      <a href="https://www.srmu.ac.in">
+        <img class="logo-1" src="bg-logo/RAMSWAROOP-LOGO.png" alt="SRMU Logo" />
+      </a>
+      <nav>
+        <ul id="menulist">
+          <li><a href="#cse">CSE</a></li>
+          <li><a href="#">VISION</a></li>
+          <li><a href="#">ABOUT</a></li>
+          <li class="dropdown" style="float:right;">
+            <a href="javascript:void(0)" class="dropbtn">OTHERS</a>
+            <div class="dropdown-content">
+              <a href="#dec">DECEMBER</a>
+              <a href="#nov">NOVEMBER</a>
+              <a href="#SC">COORDINATOR</a>
+            </div>
+          </li>
+        </ul>
+      </nav>
+      <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+  <a href="javascript:void(0);" class="menulist" onclick="myFunction()">
+    <img src="bg-logo/icon.jpg" class="menulist">
+  </a>
   
- 
-  <div class="header">
-    <a href="https://www.srmu.ac.in">
-      <img class="logo-1" src="bg-logo/RAMSWAROOP-LOGO.png" alt="SRMU Logo" />
-      <h6 class="click-srmu-logo">click on it</h6>
-    </a>
-    <div class="header-right">
-      <a class="active" href="#home">Home</a>
-      <a href="#contact">Contact</a>
-      <a href="#about">About</a>
     </div>
+
   </div>
 
+
+  <div class="1">
   <section class="heading-primary">
     <div class="row top" style="font-size: 400%;">
 
@@ -71,7 +88,7 @@
       </h3>
     </div>
   </section>
-
+  </div>
   <div class="bg1">
 
     <section>
@@ -122,7 +139,7 @@
 
   <div class="line-1"></div>
 
-  <section class="faculty-heading">
+  <section class="faculty-heading" id="cse">
     <div class="head-department" id="cse">
       <h1>
         <h1>Department of Computer Science and Engineering</h1>
@@ -189,12 +206,12 @@
           <h6 class="name-small">Asstt. Professor</h6>
         </figure>
         <figure class="gallery-img">
-          <img class="img-f" src="faculty/lokesh.png"/>
+          <img class="img-f" src="faculty/lokesh_IBM.png"/>
           <h5 class="name">Er. Lokesh Kumar Meena</h5>
           <h6 class="name-small">IMB SME</h6>
         </figure>
         <figure class="gallery-img">
-          <img class="img-f" src="faculty/robin.png"/>
+          <img class="img-f" src="faculty/robin_IBM.png"/>
           <h5 class="name">Er. Robin Tyagi</h5>
           <h6 class="name-small">IMB SME</h6>
         </figure>
@@ -227,77 +244,136 @@
   </div>
   <div class="line-1"></div>
   <div class="PRESENT-NEWS-heading">
-    <h1>Top Stories Of October 2022-23</h1>
+    <h1 id="dec">Top Stories Of DECEMBER 2022-23</h1>
+    
   </div>
   <div class="line-1"></div>
-  <div class="bg4">
-    <div class="container1" style="color: #fefe86;">
-      <div class="card1">
-        <div class="news1">
-          <a href="#">
-            <img src="student/shashwat.jpg">
-          </a>
-          <h2>editor in chief</h2>
-          <p><br>hello wecom to patrika
-            ths is news container
-            i dont know much about theselanguage
-          </p>
-        </div>
-      </div>
+<div class="bg4">
+  <div class="news1">
+    <div class="imageN">
+      <img src="student/akki.webp" alt="" class="image">
     </div>
-      <div class="container2" style="color: #fefe86;">
-        <div class="card2">
-          <div class="news2">
-            <a href="#">
-              <img src="student/akki.webp">
-            </a>
-            <h2>editor in chief</h2>
-            <p>hello wecom to patrika
-              ths is news container
-              i dont know much about these languages
-            </p>
-
-          </div>
-        </div>
-      </div>
-      <div class="container1" style="color: #fefe86;">
-        <div class="card1">
-          <div class="news1">
-            <a href="#">
-              <img src="student/shashwat.jpg">
-            </a>
-            <h2>editor in chief</h2>
-            <p>hello wecom to patrika
-              ths is news container
-              i dont know much about theselanguage
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="container2" style="color: #fefe86;">
-        <div class="card2">
-          <div class="news2">
-            <a href="#">
-              <img src="student/shashwat.jpg">
-            </a>
-            <h2>editor in chief</h2>
-            <p>hello wecom to patrika
-              ths is news container
-              i dont know much about theselanguage
-            </p>
-          </div>
-        </div>
-      </div>
+    <div class="content1">
+      <h2>This is heading</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi placeat, est eos voluptatum sapiente magni deserunt unde adipisci harum obcaecati impedit quaerat repellat expedita voluptatem itaque sed. Libero quisquam corporis eos rem at facilis ipsum dolores quod quas eum. Temporibus molestiae velit cupiditate maiores et cumque, architecto modi assumenda? Repellat.</p>
     </div>
   </div>
+  <div class="news2">
+    <div class="imageN">
+      <img src="student/akki.webp" alt="" class="image">
+    </div>
+    <div class="content2">
+      <h2 style="float:right;">This is heading</h2>
+      <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus error, voluptatem itaque temporibus laborum quasi velit delectus ut? Fugiat, a recusandae inventore aperiam molestiae repudiandae officiis ratione nisi, vel atque magni. Rerum corrupti repudiandae eligendi mollitia aperiam? Repellendus inventore asperiores quis in aliquam facere tempore earum? Laudantium quia quis omnis.</p>
+    </div>
+  </div>
+  <div class="news1">
+    <div class="imageN">
+      <img src="student/akki.webp" alt="" class="image">
+    </div>
+    <div class="content1">
+      <h2>This is heading</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi placeat, est eos voluptatum sapiente magni deserunt unde adipisci harum obcaecati impedit quaerat repellat expedita voluptatem itaque sed. Libero quisquam corporis eos rem at facilis ipsum dolores quod quas eum. Temporibus molestiae velit cupiditate maiores et cumque, architecto modi assumenda? Repellat.</p>
+    </div>
+  </div>
+  <div class="news2">
+    <div class="imageN">
+      <img src="student/akki.webp" alt="" class="image">
+    </div>
+    <div class="content2">
+      <h2 style="float:right;">This is heading</h2>
+      <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus error, voluptatem itaque temporibus laborum quasi velit delectus ut? Fugiat, a recusandae inventore aperiam molestiae repudiandae officiis ratione nisi, vel atque magni. Rerum corrupti repudiandae eligendi mollitia aperiam? Repellendus inventore asperiores quis in aliquam facere tempore earum? Laudantium quia quis omnis.</p>
+    </div>
+  </div>
+  <div class="news1">
+    <div class="imageN">
+      <img src="student/akki.webp" alt="" class="image">
+    </div>
+    <div class="content1">
+      <h2>This is heading</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi placeat, est eos voluptatum sapiente magni deserunt unde adipisci harum obcaecati impedit quaerat repellat expedita voluptatem itaque sed. Libero quisquam corporis eos rem at facilis ipsum dolores quod quas eum. Temporibus molestiae velit cupiditate maiores et cumque, architecto modi assumenda? Repellat.</p>
+    </div>
+  </div>
+  <div class="news2">
+    <div class="imageN">
+      <img src="student/akki.webp" alt="" class="image">
+    </div>
+    <div class="content2">
+      <h2 style="float:right;">This is heading</h2>
+      <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus error, voluptatem itaque temporibus laborum quasi velit delectus ut? Fugiat, a recusandae inventore aperiam molestiae repudiandae officiis ratione nisi, vel atque magni. Rerum corrupti repudiandae eligendi mollitia aperiam? Repellendus inventore asperiores quis in aliquam facere tempore earum? Laudantium quia quis omnis.</p>
+    </div>
+  </div>
+
+  <div class="line-1"></div>
+  <div class="PRESENT-NEWS-heading">
+    <h1 id="nov">Top Stories Of NOVEMBER 2022-23</h1>
+  </div>
+  <div class="line-1"></div>
+<div class="bg4">
+  <div class="news1">
+    <div class="imageN">
+      <img src="student/akki.webp" alt="" class="image">
+    </div>
+    <div class="content1">
+      <h2>This is heading</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi placeat, est eos voluptatum sapiente magni deserunt unde adipisci harum obcaecati impedit quaerat repellat expedita voluptatem itaque sed. Libero quisquam corporis eos rem at facilis ipsum dolores quod quas eum. Temporibus molestiae velit cupiditate maiores et cumque, architecto modi assumenda? Repellat.</p>
+    </div>
+  </div>
+  <div class="news2">
+    <div class="imageN">
+      <img src="student/akki.webp" alt="" class="image">
+    </div>
+    <div class="content2">
+      <h2 style="float:right;">This is heading</h2>
+      <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus error, voluptatem itaque temporibus laborum quasi velit delectus ut? Fugiat, a recusandae inventore aperiam molestiae repudiandae officiis ratione nisi, vel atque magni. Rerum corrupti repudiandae eligendi mollitia aperiam? Repellendus inventore asperiores quis in aliquam facere tempore earum? Laudantium quia quis omnis.</p>
+    </div>
+  </div>
+  <div class="news1">
+    <div class="imageN">
+      <img src="student/akki.webp" alt="" class="image">
+    </div>
+    <div class="content1">
+      <h2>This is heading</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi placeat, est eos voluptatum sapiente magni deserunt unde adipisci harum obcaecati impedit quaerat repellat expedita voluptatem itaque sed. Libero quisquam corporis eos rem at facilis ipsum dolores quod quas eum. Temporibus molestiae velit cupiditate maiores et cumque, architecto modi assumenda? Repellat.</p>
+    </div>
+  </div>
+  <div class="news2">
+    <div class="imageN">
+      <img src="student/akki.webp" alt="" class="image">
+    </div>
+    <div class="content2">
+      <h2 style="float:right;">This is heading</h2>
+      <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus error, voluptatem itaque temporibus laborum quasi velit delectus ut? Fugiat, a recusandae inventore aperiam molestiae repudiandae officiis ratione nisi, vel atque magni. Rerum corrupti repudiandae eligendi mollitia aperiam? Repellendus inventore asperiores quis in aliquam facere tempore earum? Laudantium quia quis omnis.</p>
+    </div>
+  </div>
+  <div class="news1">
+    <div class="imageN">
+      <img src="student/akki.webp" alt="" class="image">
+    </div>
+    <div class="content1">
+      <h2>This is heading</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi placeat, est eos voluptatum sapiente magni deserunt unde adipisci harum obcaecati impedit quaerat repellat expedita voluptatem itaque sed. Libero quisquam corporis eos rem at facilis ipsum dolores quod quas eum. Temporibus molestiae velit cupiditate maiores et cumque, architecto modi assumenda? Repellat.</p>
+    </div>
+  </div>
+  <div class="news2">
+    <div class="imageN">
+      <img src="student/akki.webp" alt="" class="image">
+    </div>
+    <div class="content2">
+      <h2 style="float:right;">This is heading</h2>
+      <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus error, voluptatem itaque temporibus laborum quasi velit delectus ut? Fugiat, a recusandae inventore aperiam molestiae repudiandae officiis ratione nisi, vel atque magni. Rerum corrupti repudiandae eligendi mollitia aperiam? Repellendus inventore asperiores quis in aliquam facere tempore earum? Laudantium quia quis omnis.</p>
+    </div>
+  </div>
+</div>
+
   <section>
-    <div class="student-heading">
+    <div class="student-heading" id="SC">
       <h1>STUDENT COORDINATOR</h1>
     </div>
   </section>
   <div class="bg3">
     <section>
-      <div class="gallery-03-cols">
+      <div class="gallery-02-cols">
         <figure class="gallery-img">
           <img class="img-stu" src="student/shashwat.jpg" />
           <h5 class="name">Mr. Shashwat Sahu </h5>
@@ -328,6 +404,42 @@
   </div>
   </section>
   </div>
-<script src="/patrika.js"></script>
+  <script>
+    function myFunction() {
+  var x = document.getElementById("menulist");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+  </script>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
