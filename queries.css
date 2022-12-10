@@ -134,6 +134,30 @@
       height: 450px;
       
     }
+    .HOD{
+      display: flex;
+      flex-direction:column;
+      margin-bottom: 5rem;
+    }
+    .section1 img{
+      height: 25rem;
+      width: 25rem;
+      margin-left: 7rem;
+    }
+    .section2{
+     width: 30rem;
+     height: 50rem;
+     border-radius: 4rem;
+     margin-right: 4rem;
+    }
+    .section2 h2{
+      font-size: 3rem;
+    }
+    .section2 p{
+      font-size: 2.2rem;
+      padding: 1rem;
+    }
+
 
     .bg2{
       height: 700px;
@@ -177,11 +201,17 @@
     .patron-heading{
       font-size: 3rem;
     }
+    .monthly-newsletter{
+      padding-left: 60%;
+      padding-top: 10%;
+    }
     .waviy span {
       position: relative;
       display:flex;
       flex-direction: column;
-      font-size: 80%;
+      font-size: 95%;
+      line-height: 180%;
+      padding-left: 3.5rem;;
       color: rgb(255, 255, 255);
       text-transform: uppercase;
       animation: flip 2s infinite;
