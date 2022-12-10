@@ -1,4 +1,4 @@
-@media (max-width: 50rem) {
+@media (max-width: 60rem) {
     .gallery-03-cols {
       align-self: auto;
     }
@@ -60,13 +60,13 @@
     }
     nav ul{
       width: 100%;
-      background: linear-gradient(to right,rgb(138, 136, 136),rgb(56, 55, 55));
+      background: linear-gradient(to right,rgb(65, 79, 74),rgb(176, 235, 210));
       position: absolute;
       top: 10rem;
       right: 0;
       z-index: 2;
       display: none;
-      padding-right: 5rem;
+      
     }
     nav ul li{
       display: block;
@@ -124,14 +124,15 @@
     
   @media (max-width: 30rem) {
     .heading-primary{
-      color: aqua;
-      font-size: 0.5rem;
-      line-height: 0.8;
-      text-shadow: 2px 3px 3px rgb(226, 222, 106);
       
+      font-size: 0.4rem;
+      line-height: 1.4;
+      text-shadow:3px 3px 1px  rgb(0, 0, 0);
+      height: 200px;
     }
     .bg1{
       height: 450px;
+      
     }
 
     .bg2{
@@ -147,14 +148,15 @@
     {
       font-size: 1.6rem;
       line-height: 2;
-      color: #f100ff;
+      
       background-color: #010101;
-      text-shadow: 4px 2px 5px rgb(218 109 188);
+      
     }
     .student-heading 
     {
       font-size: 1.6rem;
       line-height: 3;  
+      
     }
 
     .img-stu{
@@ -169,16 +171,22 @@
     .bg3{
       height: 450px;
     }
+    .waivy{
+      padding-left: 2.5rem;
+    }
+    .patron-heading{
+      font-size: 3rem;
+    }
     .waviy span {
       position: relative;
       display:flex;
       flex-direction: column;
-      
       font-size: 80%;
       color: rgb(255, 255, 255);
       text-transform: uppercase;
       animation: flip 2s infinite;
-      animation-delay: calc(.2s * var(--i))
+      animation-delay: calc(.2s * var(--i));
+      text-shadow: 1px 1px 1px black;
     }
     @keyframes flip {
       0%,80% {
@@ -212,7 +220,7 @@
     .content2{
     font-size: 2rem;
     margin-left:7rem;
-    margin-right: 3rem;
+    margin-right: 2rem;
     }
     .content1 p{
       font-size: 1.8rem;
@@ -221,6 +229,12 @@
       font-size: 1.8rem;
     }
      .logo-1{
-      height: 4rem;
+      height: 8rem;
+      box-shadow: 3px 3px 7px rgb(0, 0, 0);
+      
+    }
+    .topnav h2{
+      font-size: 2rem;
+      text-shadow: 2px 2px 2px black;
     }
   }
