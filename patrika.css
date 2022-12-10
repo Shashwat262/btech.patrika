@@ -206,6 +206,71 @@ nav ul li a:hover{
   animation: flip 2s infinite;
   animation-delay: calc(.2s * var(--i))
 }
+.bg5{
+  width: 100%;
+  /* height: 100vh; */
+  background: linear-gradient(to right,#077b8a,#a2d5c6);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 0px;
+  margin-right: 100px;
+  padding: 5px;
+ }
+ .HOD{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 5rem;
+ }
+
+/* /heading/ */
+.bg5 h2{
+  text-align: center;
+  color: #ffbb28;
+  font-size: 4rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  text-shadow: 3px 4px 2px rgb(0, 0, 0);
+  font-family: 'Cinzel', serif;
+}.section1 img{
+  height: 30rem;
+  width: 30rem;
+  border-radius:20%;
+  box-shadow: 7px 7px 10px ;
+  margin-top: 3rem;
+  margin-left: 6rem;
+  margin-right: 4rem;
+}
+.section1 img:hover{
+  transform: scale(1.1);
+}.section2{
+ height: 30rem;
+ width: 75rem;
+ border-radius:20%;
+ box-shadow: 7px 7px 10px ;
+ margin-top: 3rem;
+ margin-left: 6rem;
+ margin-right: 4rem;
+}.section2 h2{
+  text-align: center;
+  color: #d19921;
+  font-size: 4rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  text-shadow: 3px 3px 5px rgb(0, 0, 0);
+  font-family: 'Cinzel', serif;
+}.section2 p{
+  font-size: 2.5rem;
+  margin-top: 3rem;
+  text-align: justify;
+  margin-top: 6rem;
+  margin-left: 1rem;
+  color: #0d3040;
+  font-family: 'Gochi Hand', cursive;
+  
+}
+
+
+
 @keyframes flip {
   0%,80% {
     transform: rotateY(360deg) 
