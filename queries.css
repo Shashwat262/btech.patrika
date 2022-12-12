@@ -49,12 +49,12 @@
       row-gap: 2rem;
     }
     .bg1{
-/*       height: 500px; */
-        margin-bottom:1rem;
+      height: 500px;
+/*         margin-bottom:1rem; */
     }
     .bg2{
-/*       height: 700px; */
-        margin-bottom:1rem;
+      height: 700px;
+/*         margin-bottom:1rem; */
     }
     .PRESENT-NEWS-heading{
       font-size: 2.8rem;
@@ -134,8 +134,8 @@
         margin-bottom:1rem;
     }
     .bg1{
-/*       height: 450px; */
-        margin-bottom:1rem;
+      height: 450px;
+/*         margin-bottom:1rem; */
       
     }
     .HOD{
@@ -164,8 +164,8 @@
 
 
     .bg2{
-/*       height: 700px; */
-        margin-bottom:1rem;
+      height: 700px;
+/*         margin-bottom:1rem; */
     }
     
     .PRESENT-NEWS-heading 
