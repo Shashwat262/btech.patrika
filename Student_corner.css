@@ -129,4 +129,7 @@
     .work{
         border-radius: 25px;
     }
+    .work img{
+        height:15rem;
+    }
 }
