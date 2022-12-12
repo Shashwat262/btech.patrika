@@ -61,7 +61,7 @@
 .layer
 {
     width: 100%;
-    height: 20px;
+    height: 0px;
     
     background: linear-gradient(to right,rgb(253 226 249),rgb(0, 236, 208));
     /* opacity: initial; */
@@ -95,7 +95,20 @@
     height: 100%;
 
 }
+.clickme{
+    border: 1px solid rgb(19, 2, 96);
+    background-color: #bccad8;
+    padding: 0.2rem;
+    font-size: 1rem;
+    color:rgb(9, 9, 38);
+    text-decoration: none;
+    border-radius: 0.4rem;
 
+}
+.clickme:hover{
+  background-color: rgb(8, 8, 74);
+  color: blanchedalmond;
+}
 @media(max-width:50rem){
     .heading{
         height: 5rem;
@@ -113,6 +126,6 @@
         margin: 1rem;
     }
     .work{
-        border-radius: 25px;
-    }
+        border-radius: 25px;
+    }
 }
