@@ -209,7 +209,7 @@ nav ul li a:hover{
 }
 .bg5{
   width: 100%;
-  height: 100vh;
+/*   height: 100vh; */
   background: linear-gradient(to right,#630f73,#000000);
   background-repeat: no-repeat;
   background-size: cover;
