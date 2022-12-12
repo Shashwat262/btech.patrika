@@ -234,21 +234,20 @@ nav ul li a:hover{
 }.section1 img{
   height: 30rem;
   width: 30rem;
-  border-radius:20%;
+  border-radius:4%;
   box-shadow: 7px 7px 10px ;
-  margin-top: 3rem;
-  margin-left: 6rem;
-  margin-right: 4rem;
+/*   margin-top: 3rem;
+  margin-left: 6rem; */
+  margin: 4rem;
 }
 .section1 img:hover{
   transform: scale(1.1);
 }.section2{
- width: 75rem;
+ 
  border-radius:4%;
  box-shadow: 7px 7px 10px ;
- margin-left: 6rem;
   padding:1rem;
- margin-right: 4rem;
+ margin: 4rem;
 }.section2 h2{
   text-align: center;
   color: #d19921;
