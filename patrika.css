@@ -234,7 +234,7 @@ nav ul li a:hover{
 }.section1 img{
   height: 30rem;
   width: 30rem;
-  border-radius:4%;
+  border-radius:20%;
   box-shadow: 7px 7px 10px ;
 /*   margin-top: 3rem;
   margin-left: 6rem; */
@@ -244,10 +244,10 @@ nav ul li a:hover{
   transform: scale(1.1);
 }.section2{
  
- border-radius:4%;
+ border-radius:10%;
  box-shadow: 7px 7px 10px ;
-  padding:1rem;
- margin: 4rem;
+  padding:2rem;
+ margin-right: 4rem;
 }.section2 h2{
   text-align: center;
   color: #d19921;
