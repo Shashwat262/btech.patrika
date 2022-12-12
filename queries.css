@@ -49,10 +49,12 @@
       row-gap: 2rem;
     }
     .bg1{
-      height: 500px;
+/*       height: 500px; */
+        margin-bottom:1rem;
     }
     .bg2{
-      height: 700px;
+/*       height: 700px; */
+        margin-bottom:1rem;
     }
     .PRESENT-NEWS-heading{
       font-size: 2.8rem;
@@ -128,10 +130,12 @@
       font-size: 0.4rem;
       line-height: 1.4;
       text-shadow:3px 3px 1px  rgb(0, 0, 0);
-      height: 200px;
+/*       height: 200px; */
+        margin-bottom:1rem;
     }
     .bg1{
-      height: 450px;
+/*       height: 450px; */
+        margin-bottom:1rem;
       
     }
     .HOD{
@@ -160,7 +164,8 @@
 
 
     .bg2{
-      height: 700px;
+/*       height: 700px; */
+        margin-bottom:1rem;
     }
     
     .PRESENT-NEWS-heading 
@@ -193,7 +198,8 @@
       grid-template-columns: repeat(2, 1fr);
     }
     .bg3{
-      height: 450px;
+/*       height: 450px; */
+        margin-bottom:1rem;
     }
     .waivy{
       padding-left: 2.5rem;
