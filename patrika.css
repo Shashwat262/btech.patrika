@@ -251,14 +251,14 @@ nav ul li a:hover{
 }.section2 h2{
   text-align: center;
   color: #d19921;
-  font-size: 4rem;
+  font-size: 6rem;
   text-decoration:underline;
   margin-bottom: 2rem;
   margin-top: 2rem;
   text-shadow: 3px 3px 5px rgb(0, 0, 0);
   font-family: 'Cinzel', serif;
 }.section2 p{
-  font-size: 2.3rem;
+  font-size: 3.3rem;
   margin-top: 3rem;
   text-align: justify;
   margin-left: 1rem;
