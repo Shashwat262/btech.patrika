@@ -433,15 +433,13 @@ nav ul li a:hover{
 .img-stu:hover{
   transform: scale(1.1);
 }
-.imageN a{
-  box-shadow:none;
-}
-.image
+
+.imageN img
 {
   height: 30rem;
   width: 30rem;
   border-radius:20%;
-  box-shadow: 7px 7px 10px ;
+  box-shadow: 7px 7px 12px rgb(18, 21, 21) ;
   margin-top: 3rem;
   margin-left: 6rem;
   margin-right: 4rem;
