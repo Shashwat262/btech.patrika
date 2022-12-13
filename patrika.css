@@ -433,7 +433,9 @@ nav ul li a:hover{
 .img-stu:hover{
   transform: scale(1.1);
 }
-
+.imageN a{
+  box-shadow:none;
+}
 .image
 {
   height: 30rem;
