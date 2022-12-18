@@ -74,7 +74,7 @@ body {
   color: rgb(237, 243, 72);
 }
 .logo-1{
-  height: 10rem;
+  height: 9rem;
   cursor: pointer;
   margin: 30px 0;
   box-shadow: 4px 4px 8px #000000;
@@ -99,7 +99,7 @@ body {
   
 }
 .topnav h2{
-  font-size: 3rem;
+  font-size: 2.5rem;
   color: #deb600;
   text-shadow: 3px 3px 2px #000000;
   justify-content: space-evenly;
@@ -264,7 +264,7 @@ nav ul li a:hover{
   text-align: justify;
   margin-left: 1rem;
   color: #ffffff;
-  font-family: 'Gochi Hand', cursive;
+  font-family: 'Gochi Hand', cursive;
   
 }
 
@@ -550,8 +550,3 @@ nav ul li a:hover{
   width: 3rem;
 }
 
-
-
-
-
-/*ABOUT SECTION  */
