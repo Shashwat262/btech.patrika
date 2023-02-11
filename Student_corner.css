@@ -18,6 +18,17 @@
     /* background-color: linear-gradient(to right,rgb(108, 49, 49),rgb(241, 238, 168)); */
 }
 
+.icon1 a
+{
+position: absolute;
+top: 3%;
+right: 3%;
+font-size: 3rem;
+color: rgb(0, 63, 63);
+}
+.icon1:hover{
+    color: rgb(16, 82, 98);
+}
 .heading
 {
     background: linear-gradient(to right,rgb(253 226 249),rgb(0, 236, 208));
@@ -110,7 +121,7 @@
   background-color: rgb(8, 8, 74);
   color: blanchedalmond;
 }
-@media(max-width:50rem){
+@media(max-width:75rem){
     .heading{
         height: 5rem;
     }
@@ -118,8 +129,8 @@
         font-size: 2rem;
     }
     .body h3{
-        font-size: 1.6rem;
-        margin-top: 0;
+        font-size: 2rem;
+        margin: 1rem;
     }
     .b2{
         grid-template-columns: repeat(1,1fr);
@@ -127,6 +138,14 @@
         margin: 1rem;
     }
     .work{
-        border-radius: 25px;
-    }
+        border-radius: 25px;
+   }
+   .icon1 a
+  {
+position: absolute;
+top: 2%;
+right: 3%;
+font-size: 2rem;
+color: rgb(0, 8, 39);
+}
 }
