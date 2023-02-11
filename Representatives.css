@@ -14,6 +14,18 @@
     font-weight: 400;
     overflow-x: hidden;
   }
+  
+  .icon1 a
+{
+position: absolute;
+top: 12%;
+right: 3%;
+font-size: 4rem;
+color: rgb(234, 240, 240);
+}
+.icon1:hover{
+    color: rgb(16, 82, 98);
+}
   .R-BG-1{
     width: 100%;
     height: 50rem;
@@ -256,5 +268,13 @@
     }
     .year1{
       font-size: 1.2rem;
+    }
+    .icon1 a
+    {
+    position: absolute;
+    top: 52%;
+    right: 3%;
+    font-size: 3rem;
+    color: rgb(234, 240, 240);
     }
   }
