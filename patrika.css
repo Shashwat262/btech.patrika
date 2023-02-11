@@ -386,6 +386,14 @@ nav ul li a:hover{
   justify-content: center;
   font-size: 2rem;
 }
+.gallery-04-cols {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 4rem;
+  text-align: center;
+  justify-content: center;
+  font-size: 2rem;
+}
 .gallery-03-col {
   display: flex;
   gap: 5rem;
