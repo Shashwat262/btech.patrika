@@ -96,7 +96,7 @@ body {
   box-sizing: border-box;
   overflow: hidden;
   /* background: linear-gradient(to right,rgb(68, 53, 63),rgb(0, 0, 0)); */
-  background: linear-gradient(to right,rgb(237 243 72),rgb(155 58 255),rgb(255 66 144),rgb(237 243 72));
+  background: linear-gradient(45deg,rgb(237 243 72),rgb(155 58 255),rgb(255 66 144),rgb(237 243 72));
   
 }
 .topnav h2{
@@ -140,7 +140,7 @@ nav ul li a:hover{
   align-items: center;
   justify-content: space-evenly;
   /* background: linear-gradient(to right,rgb(239, 142, 236),rgb(156, 255, 58),rgb(255, 26, 121),rgb(4, 125, 117)); */
-  background: linear-gradient(to right,rgb(237 243 72),rgb(155 58 255),rgb(255 66 144),rgb(237 243 72));
+  background: linear-gradient(135deg,rgb(237 243 72),rgb(155 58 255),rgb(255 66 144),rgb(237 243 72));
   /* background: linear-gradient(to right,rgb(68, 53, 63),rgb(0, 0, 0));
   background: linear-gradient(to right,rgb(243, 110, 110),rgb(255, 65, 44)); */
   padding: 0 4.8rem;
