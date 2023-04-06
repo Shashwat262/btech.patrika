@@ -24,7 +24,7 @@ body {
 .dropdown-content {
   display: none;
   position: absolute;
-  background: linear-gradient(to right,rgb(192, 129, 255),rgb(255 66 144));
+  background: linear-gradient(to right,rgb(141, 140, 141),rgb(48, 48, 48));
   
   min-width: 100px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -45,7 +45,7 @@ body {
 }
 
 .dropdown-content a:hover {
-  background-color: #ff6969; 
+  background-color: #006a9b; 
   color: #000000;
   text-shadow: 2px 2px 3px rgb(222, 251, 141);
 }
@@ -96,7 +96,9 @@ body {
   box-sizing: border-box;
   overflow: hidden;
   /* background: linear-gradient(to right,rgb(68, 53, 63),rgb(0, 0, 0)); */
-  background: linear-gradient(to right,rgb(237 243 72),rgb(155 58 255),rgb(255 66 144),rgb(237 243 72));
+  background: linear-gradient(to top,rgb(28, 78, 78),rgb(4, 125, 117));
+
+  /* background: linear-gradient(45deg,rgb(237 243 72),rgb(155 58 255),rgb(255 66 144),rgb(237 243 72)); */
   
 }
 .topnav h2{
@@ -139,10 +141,8 @@ nav ul li a:hover{
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  /* background: linear-gradient(to right,rgb(239, 142, 236),rgb(156, 255, 58),rgb(255, 26, 121),rgb(4, 125, 117)); */
-  background: linear-gradient(to right,rgb(237 243 72),rgb(155 58 255),rgb(255 66 144),rgb(237 243 72));
-  /* background: linear-gradient(to right,rgb(68, 53, 63),rgb(0, 0, 0));
-  background: linear-gradient(to right,rgb(243, 110, 110),rgb(255, 65, 44)); */
+  background: linear-gradient(to bottom,rgb(28, 78, 78),rgb(4, 125, 117));
+
   padding: 0 4.8rem;
   height: 25rem;
 /*   margin-bottom:3rem; */
@@ -162,13 +162,14 @@ nav ul li a:hover{
 .student-heading {
 
   text-align: center;
-  color: #ffffff;
+  color: rgb(234, 168, 36);
   font-size: 3.8rem;
   line-height: 2;
   margin-bottom: 0rem;
   margin-top: 0rem;
-  /* background: linear-gradient(rgb(42, 40, 41),rgb(43, 108, 115)); */
-  background: linear-gradient(to right,rgb(237 243 72),rgb(155 58 255),rgb(255 66 144),rgb(237 243 72));
+  background: linear-gradient(rgb(42, 40, 41),rgb(43, 108, 115));
+  /* background: linear-gradient(to right,rgb(237 243 72),rgb(155 58 255),rgb(255 66 144),rgb(237 243 72)); */
+  
   text-shadow: 6px 4px 1px rgb(0, 0, 0);
   font-family: 'Cinzel', serif;
 }
@@ -177,13 +178,13 @@ nav ul li a:hover{
   
 
   text-align: center;
-  color: #ffffff;
+  color: rgb(234, 168, 36);
   font-size: 3.8rem;
   line-height: 2;
   margin-bottom: 0rem;
   margin-top: 0rem;
-  /* background: linear-gradient(rgb(42, 40, 41),rgb(43, 108, 115)); */
-  background: linear-gradient(to right,rgb(237 243 72),rgb(155 58 255),rgb(255 66 144),rgb(237 243 72));
+  background: linear-gradient(rgb(42, 40, 41),rgb(43, 108, 115));
+  /* background: linear-gradient(to right,rgb(237 243 72),rgb(155 58 255),rgb(255 66 144),rgb(237 243 72)); */
   text-shadow: 6px 4px 2px rgb(0, 0, 0);
   font-family: 'Cinzel', serif;
 }
@@ -210,16 +211,6 @@ nav ul li a:hover{
   animation: flip 2s infinite;
   animation-delay: calc(.2s * var(--i))
 }
-.bg5{
-  width: 100%;
-/*   height: 100vh; */
-  background: linear-gradient(to right,#630f73,#000000);
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin-top: 0px;
-  margin-right: 100px;
-  padding: 5px;
- }
  .HOD{
   display: flex;
   flex-direction: row;
@@ -227,50 +218,6 @@ nav ul li a:hover{
  }
 
 /* /heading/ */
-.bg5 h2{
-  text-align: center;
-  color: #ffc956;
-  font-size: 4rem;
-  margin-bottom: 2rem;
-  margin-top: 2rem;
-  text-shadow: 3px 4px 2px rgb(0, 0, 0);
-  font-family: 'Cinzel', serif;
-}.section1 img{
-  height: 30rem;
-  width: 30rem;
-  border-radius:20%;
-  box-shadow: 7px 7px 10px ;
-/*   margin-top: 3rem;
-  margin-left: 6rem; */
-  margin: 4rem;
-}
-.section1 img:hover{
-  transform: scale(1.1);
-}.section2{
- 
- border-radius:10%;
- box-shadow: 7px 7px 10px ;
-  padding:2rem;
- margin-right: 4rem;
-}.section2 h2{
-  text-align: center;
-  color: #d19921;
-  font-size: 6rem;
-  text-decoration:underline;
-  margin-bottom: 2rem;
-  margin-top: 2rem;
-  text-shadow: 3px 3px 5px rgb(0, 0, 0);
-  font-family: 'Cinzel', serif;
-}.section2 p{
-  font-size: 3.3rem;
-  margin-top: 3rem;
-  text-align: justify;
-  margin-left: 1rem;
-  color: #ffffff;
-  font-family: 'Gochi Hand', cursive;
-  
-}
-
 
 
 @keyframes flip {
@@ -279,56 +226,13 @@ nav ul li a:hover{
   }
 }
 
-/*backgrond*/
-.bg0
-  {
-    width: 100%;
-    height: 76rem;
-     background-repeat: no-repeat;
-    background-size: cover;
-    margin-top: 0px;
-    margin-right: 100px;
-   } 
-  .holi h5{
-    /* padding-right: 5rem; */
-    /* padding-top: 3rem; */
-    font-size:2.4rem;
-    /* padding-bottom: 3rem; */
-    /* padding-left: 5rem; */
-    position:absolute;
-    margin-top: 22rem;
-    padding-left: 11rem;
-    padding-right: 42rem;
-    padding-bottom: 3rem;
-    text-align: justify;
-    color: #840096;
-    text-shadow: 1px 1px 1px rgb(0, 0, 0);
-  }
-  .holi h2{
-    /* padding-right: 5rem; */
-    /* padding-top: 3rem; */
-    font-size: 12rem;
-    /* padding-bottom: 3rem; */
-    /* padding-left: 5rem; */
-    position: absolute;
-    margin-left: 8%;
-    margin-top: 6rem;
-    color: rgb(0, 178, 228);
-    text-shadow: 6px 5px 4px rgb(0, 0, 0);
-    text-decoration: solid;
-  }
-  .bg0 img{
-    width: 100%;
-    height: 76rem;
-    position: absolute;
-  }
 .bg1{
   width: 100%;
   height: 700px;
 /*   margin-bottom:3rem; */
   /* background: linear-gradient(rgb(40, 44, 18),rgb(231, 240, 61)); */
-  /* background: linear-gradient(to right,rgb(28, 78, 78),rgb(4, 125, 117)); */
-  background: url(bg-logo/holi4.jpg);
+  background: linear-gradient(to right,rgb(28, 78, 78),rgb(4, 125, 117));
+  /* background: url(bg-logo/holi4.jpg); */
   background-repeat: no-repeat;
   background-size: cover;
   margin-top: 0px;
@@ -338,10 +242,10 @@ nav ul li a:hover{
 .bg2{
   width: 100%;
   height: 1220px;
-  /* background-image: url(bg-logo/hand-painted-watercolor-pastel-sky-background_23-2148902771.webp); */
+  background-image: url(bg-logo/hand-painted-watercolor-pastel-sky-background_23-2148902771.webp);
 /*   margin-bottom:3rem; */
-  /* background: linear-gradient(to right,rgb(28, 78, 78),rgb(2, 150, 140)); */
-  background: url(bg-logo/holi4.jpg);
+  background: linear-gradient(to right,rgb(28, 78, 78),rgb(2, 150, 140));
+  /* background: url(bg-logo/holi4.jpg); */
   background-repeat: no-repeat;
   background-size: cover;
   margin-top: 0px;
@@ -359,7 +263,7 @@ nav ul li a:hover{
   height: 500px;
   background: url(bg-logo/holi4.jpg);
 /*   margin-bottom:3rem; */
-  /* background: linear-gradient(to right,rgb(28, 78, 78),rgb(4, 125, 117)); */
+  background: linear-gradient(to right,rgb(28, 78, 78),rgb(4, 125, 117));
   /* background:linear-gradient(to right,rgb(109, 107, 107),white); */
   background-repeat: no-repeat;
   background-size: cover;
@@ -373,8 +277,8 @@ nav ul li a:hover{
   width: 100%;
 /*   height: 100vh; */
 /*   margin-bottom:3rem */
-  /* background: linear-gradient(to right,rgb(28, 78, 78),rgb(4, 125, 117)); */
-  background: url(bg-logo/holi4.jpg);
+  background: linear-gradient(to right,rgb(28, 78, 78),rgb(4, 125, 117));
+  /* background: url(bg-logo/holi4.jpg); */
   background-repeat: no-repeat;
   background-size: cover;
   margin-top: 0px;
@@ -404,8 +308,8 @@ nav ul li a:hover{
   line-height: 1.5;
   text-align: center;
   color: #ffffff;
-  /* background: linear-gradient(rgb(42, 40, 41),rgb(43, 108, 115)); */
-  background: linear-gradient(to right,rgb(237 243 72),rgb(155 58 255),rgb(255 66 144),rgb(237 243 72));
+  background: linear-gradient(rgb(42, 40, 41),rgb(43, 108, 115));
+  /* background: linear-gradient(to right,rgb(237 243 72),rgb(155 58 255),rgb(255 66 144),rgb(237 243 72)); */
   
   text-shadow: 5px 2px 1px rgb(29, 28, 26);
   font-family: 'Cinzel', serif;
@@ -539,17 +443,17 @@ nav ul li a:hover{
 .content1  h2{
   font-family: 'Cinzel', serif;
   text-shadow: 1px 1px 1px black;
-  color: #000000;
+  color: #ffffff;
 }
 .content1  h5{
   font-family: 'Cinzel', serif;
   text-shadow: 1px 1px 1px black;
-  color: #000000;
+  color: #ffffff;
 }
 .content2  h2{
   font-family: 'Cinzel', serif;
   text-shadow: 1.5px 1.5px 1px black;
-  color: #000000;
+  color: #ffffff;
 }
 .content1  p{
   font-size: 2rem;
@@ -557,7 +461,7 @@ nav ul li a:hover{
   text-align: justify;
   margin-right: 1rem;
   font-family: 'Gochi Hand', cursive;
-  color: #000000;
+  color: #ffffff;
 }
 .content2  p{
   font-size: 2rem;
@@ -566,7 +470,7 @@ nav ul li a:hover{
   margin-top: 6rem;
   margin-left: 1rem;
   font-family: 'Gochi Hand', cursive;
-  color: #000000;
+  color: #ffffff;
 }
 
 /*naming*/
@@ -574,18 +478,18 @@ nav ul li a:hover{
 .name {
   padding-bottom: 1rem;
   padding-top: 1rem;
-  color: #690076;
+  color: #ffffff;
   text-decoration: overline;
   font-family: 'Orbitron', sans-serif;
-  /* text-shadow: 2px 2px 1px rgb(0, 0, 0); */
+  text-shadow: 2px 2px 1px rgb(0, 0, 0);
 }
 .name:hover{
   transform: scale(1.1);
 }
 .name-small {
-  color: #690076;
+  color: #fbd8ff;
   font-family: 'Orbitron', sans-serif;
-  /* text-shadow: 2px 2px 2px rgb(0, 0, 0); */
+  text-shadow: 2px 2px 2px rgb(0, 0, 0);
 }
 .name-small:hover{
   transform: scale(1.1);
