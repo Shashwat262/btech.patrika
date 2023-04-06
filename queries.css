@@ -97,9 +97,9 @@
   }
   nav ul{
     width: 100%;
-    background: linear-gradient(to right,#70ffd2,rgb(255, 167, 35),rgb(255, 147, 226),rgb(115, 110, 255));
+    /* background: linear-gradient(to right,#70ffd2,rgb(255, 167, 35),rgb(255, 147, 226),rgb(115, 110, 255)); */
   
-    /* background: linear-gradient(to right,rgb(225, 142, 255),rgb(176, 235, 210)); */
+    background: linear-gradient(to right,rgb(0, 82, 65),rgb(141, 255, 208));
     position: absolute;
     top: 10rem;
     right: 0;
@@ -326,10 +326,10 @@
   margin-right: 2rem;
   }
   .content1 p{
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
   .content2 p{
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
    .logo-1{
     height: 8rem;
