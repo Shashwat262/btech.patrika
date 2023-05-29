@@ -17,7 +17,6 @@
     /* border: 2px solid rgb(80, 7, 7); */
     /* background-color: linear-gradient(to right,rgb(108, 49, 49),rgb(241, 238, 168)); */
 }
-
 .icon1 a
 {
 position: absolute;
@@ -36,7 +35,7 @@ color: rgb(0, 63, 63);
     font-family: 'Diplomata SC', cursive;
 }
 .body h3{
-    font-size: 3.6rem;
+    font-size: 2rem;
     color: rgb(42, 229, 254);
     text-align: center;
     margin-top: 2rem;
